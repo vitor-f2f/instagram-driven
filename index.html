@@ -2,11 +2,11 @@
 <html lang="pt-BR">
     <head>
         <link href="reset.css" rel="stylesheet" />
-        <link href="styles-topbar.css" rel="stylesheet" />
         <link href="styles-main.css" rel="stylesheet" />
+        <link href="styles-topbar.css" rel="stylesheet" />
         <link href="styles-stories.css" rel="stylesheet" />
-        <link href="styles-resized.css" rel="stylesheet" />
         <link href="styles-infobox.css" rel="stylesheet" />
+        <link href="styles-resized.css" rel="stylesheet" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +17,6 @@
         />
         <title>Projeto Instagram</title>
     </head>
-    <!-- comentario -->>
     <body>
         <div id="topbar">
             <div class="topbar-content">
@@ -41,8 +40,6 @@
         <div class="main-page">
             <div class="main-content">
                 <div class="stories-box">
-                    <ion-icon name="chevron-back-circle"></ion-icon>
-                    <ion-icon name="chevron-forward-circle"></ion-icon>
                     <div class="story-container">
                         <div class="story-icon">
                             <div class="story-image">
@@ -77,7 +74,7 @@
                                 <img class="story-profile profile-large" src="rsc/nathanwpylestrangeplanet 1.png" />
                             </div>
                         </div>
-                        <div class="story-user">nathanwpyle</div>
+                        <div class="story-user">nathanwpylestrangeplanet</div>
                     </div>
                     <div class="story-container">
                         <div class="story-icon">
@@ -115,6 +112,8 @@
                         </div>
                         <div class="story-user">memeriagourmet</div>
                     </div>
+                    <!-- <div id="scroll-left"><ion-icon name="chevron-back-circle"></ion-icon></div> -->
+                    <div id="scroll-right"><ion-icon name="chevron-forward-circle"></ion-icon></div>
                 </div>
                 <div class="timeline">
                     <div class="post">
@@ -125,50 +124,72 @@
                             </div>
                             <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
-                        <img class="post-image" src="rsc/gato-telefone 3.png" />
+                        <img class="post-image" src="rsc/gato-telefone.png" />
                         <div class="post-bottom-bar">
-                            <div class="post-bottom-left">
-                                <ion-icon name="heart-outline"/></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
+							<div class="post-bottom-bar-line1">
+								<span class="post-bottom-left">
+									<ion-icon name="heart-outline"/></ion-icon>
+									<ion-icon name="chatbubble-outline"></ion-icon>
+									<ion-icon name="paper-plane-outline"></ion-icon>
+                                </span>
+								<ion-icon name="bookmark-outline"></ion-icon>
+							</div>
+							<div class="post-bottom-bar-line2">
+								<a href=""><img class="profile-like" src="rsc/muzy.jpg" /></a>
+								<span class="like-count">Curtido por <span style="font-weight: bold;">paulomuzy</span> e <span style="font-weight: bold;">outras 101.523 pessoas</span></span>
+							</div>
                         </div>
                     </div>
                     <div class="post">
                         <div class="post-top-bar">
                             <div class="post-top-left">
-                                <a href=""><img class="profile-small" src="rsc/meowed 1.png" /></a>
-                                <a href="" class="post-user">meowed</a>
+                                <a href=""><img class="profile-small" src="rsc/nathanwpylestrangeplanet 1.png" /></a>
+                                <a href="" class="post-user">nathanwpylestrangeplanet</a>
                             </div>
                             <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
-                        <img class="post-image" src="rsc/gato-telefone 3.png" />
+                        <video class="post-image" controls autoplay muted>
+                            <source src="rsc/video.mp4" type="video/mp4">
+                            <source src="rsc/video.ogg" type="video/ogg">
+                          Your browser does not support the video tag.
+                          </video>
                         <div class="post-bottom-bar">
-                            <div class="post-bottom-left">
-                                <ion-icon name="heart-outline"/></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
+							<div class="post-bottom-bar-line1">
+								<span class="post-bottom-left">
+									<ion-icon name="heart-outline"/></ion-icon>
+									<ion-icon name="chatbubble-outline"></ion-icon>
+									<ion-icon name="paper-plane-outline"></ion-icon>
+                                </span>
+								<ion-icon name="bookmark-outline"></ion-icon>
+							</div>
+							<div class="post-bottom-bar-line2">
+								<a href=""><img class="profile-like" src="rsc/riri.jpg" /></a>
+								<span class="like-count">Curtido por <span style="font-weight: bold;">badgalriri</span> e <span style="font-weight: bold;">outras 23.229 pessoas</span></span>
+							</div>
                         </div>
                     </div>
                     <div class="post">
                         <div class="post-top-bar">
                             <div class="post-top-left">
-                                <a href=""><img class="profile-small" src="rsc/meowed 1.png" /></a>
-                                <a href="" class="post-user">meowed</a>
+                                <a href=""><img class="profile-small" src="rsc/barked.png" /></a>
+                                <a href="" class="post-user">barked</a>
                             </div>
                             <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
-                        <img class="post-image" src="rsc/gato-telefone 3.png" />
+                        <img class="post-image" src="rsc/dog.png" />
                         <div class="post-bottom-bar">
-                            <div class="post-bottom-left">
-                                <ion-icon name="heart-outline"/></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
+							<div class="post-bottom-bar-line1">
+								<span class="post-bottom-left">
+									<ion-icon name="heart-outline"/></ion-icon>
+									<ion-icon name="chatbubble-outline"></ion-icon>
+									<ion-icon name="paper-plane-outline"></ion-icon>
+                                </span>
+								<ion-icon name="bookmark-outline"></ion-icon>
+							</div>
+							<div class="post-bottom-bar-line2">
+								<a href=""><img class="profile-like" src="rsc/meowed 1.png" /></a>
+								<span class="like-count">Curtido por <span style="font-weight: bold;">meowed</span> e <span style="font-weight: bold;">outras 91.703 pessoas</span></span>
+							</div>
                         </div>
                     </div>
                 </div>
