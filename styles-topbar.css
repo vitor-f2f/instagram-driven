@@ -1,0 +1,98 @@
+.div-logo {
+    margin: 0px 10px;
+    width: 1px;
+    height: 22px;
+    background-color: #dbdbdb;
+}
+
+#topbar {
+    border-bottom: 1px solid #dbdbdb;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.topbar-content {
+    height: 54px;
+    vertical-align: baseline;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+#bottombar {
+    border-top: 1px solid #dbdbdb;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.bottombar-content {
+    height: 54px;
+    vertical-align: baseline;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+}
+
+.search-bar input[type="text"] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.nav-right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    gap: 21px;
+}
+
+.text-instagram {
+    width: 103px;
+    height: 29px;
+    justify-content: center;
+}

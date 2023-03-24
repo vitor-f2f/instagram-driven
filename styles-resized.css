@@ -1,0 +1,52 @@
+@media screen and (max-width: 614px) {
+    .div-logo,
+    .desktop-only {
+        display: none;
+    }
+    .text-instagram.left {
+        display: none;
+    }
+    .stories-box {
+        margin-bottom: 0;
+    }
+    .post {
+        border-bottom: 1px solid #dbdbdb;
+        border-top: 1px solid #dbdbdb;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .search-bar {
+        display: none;
+    }
+}
+@media screen and (min-width: 615px) {
+    .main-page {
+        margin-top: 34px;
+    }
+    .post {
+        background: #ffffff;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+    }
+    .stories-box {
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+    }
+
+    #bottombar {
+        display: none;
+    }
+    .text-instagram.center {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .info-box {
+        display: none;
+    }
+    .main-page {
+        justify-content: space-around;
+    }
+}

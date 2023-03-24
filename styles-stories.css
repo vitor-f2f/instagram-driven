@@ -1,0 +1,71 @@
+.stories-box {
+    width: 100%;
+    height: 118px;
+    background-color: white;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 18px;
+    padding-left: 18px;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.story-container {
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story-icon {
+    position: relative;
+    display: flex;
+    width: 66px;
+    height: 66px;
+}
+.story-background {
+    position: inherit;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    top: 0;
+    left: 0;
+}
+.story-profile {
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left: 5px;
+}
+.story-user {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 76px;
+    display: block;
+    padding-left: 2px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.story-container:not(:last-of-type) {
+    margin-right: 7px;
+}
+.story-container:not(:first-of-type) {
+    margin-left: 7px;
+}
+
+ion-icon[name="chevron-forward-circle"] {
+    position: absolute;
+    right: 9px;
+    top: 46px;
+    font-size: 26px;
+    color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0,  0.8));
+    z-index: 10;
+}

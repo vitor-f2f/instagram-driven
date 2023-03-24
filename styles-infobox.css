@@ -1,0 +1,115 @@
+.info-box {
+    align-self: flex-start;
+    position: sticky;
+    top: 90px;
+    width: 292px;
+    font-size: 14px;
+}
+.user-profile {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.user-info {
+    margin-left: 17px;
+    width: 227px;
+    line-height: 16px;
+}
+.user-handle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+.user-name {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+}
+.suggestions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.for-you {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+}
+.see-all {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #262626;
+}
+.suggestions-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.suggestions-container + .suggestions-container {
+    margin-top: 14px;
+}
+.suggestions-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.suggestions-info {
+    margin-left: 11px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+}
+.follow {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139ef2;
+}
+.follow:hover,
+.see-all:hover {
+    opacity: 0.7;
+}
+.info-links {
+    display: flex;
+    flex-flow: wrap row;
+    display: flex;
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
+.help {
+    color: #c7c7c7;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+.help:not(:last-of-type)::after {
+    content: "\00B7";
+    margin: 0 0.25em 0 0.25em;
+}

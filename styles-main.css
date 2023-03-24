@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:link {
+    text-decoration: none;
+}
+
+*:visited {
+    text-decoration: none;
+}
+
+*:hover {
+    text-decoration: none;
+}
+
+*:active {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+ion-icon {
+    font-size: 22px;
+}
+
+.profile-large {
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+}
+.profile-small {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+}
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    max-width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 614px;
+}
+.post {
+    background: #ffffff;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.post-top-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.post-top-left {
+    display: flex;
+    align-items: center;
+}
+.post-user {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+.post-bottom-bar {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+.post-bottom-left {
+    display: flex;
+    gap: 13px;
+}
+.post-image {
+    max-width: 100%;
+    height: auto;
+}
